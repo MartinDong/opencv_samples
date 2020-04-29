@@ -13,6 +13,8 @@ import com.kongqw.listener.OnCalcBackProjectListener;
 import com.kongqw.listener.OnObjectTrackingListener;
 import com.kongqw.listener.OnOpenCVLoadListener;
 
+import org.opencv.android.LoaderCallbackInterface;
+import org.opencv.android.OpenCVLoader;
 import org.opencv.android.Utils;
 import org.opencv.core.Mat;
 import org.opencv.core.Point;
@@ -86,7 +88,7 @@ public class ObjectTrackingActivity extends BaseActivity {
             }
         });
 
-        objectTrackingView.loadOpenCV(getApplicationContext());
+        //objectTrackingView.loadOpenCV(getApplicationContext());
     }
 
     /**
@@ -96,5 +98,31 @@ public class ObjectTrackingActivity extends BaseActivity {
      */
     public void swapCamera(View view) {
         objectTrackingView.swapCamera();
+    }
+
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        if (objectTrackingView != null)
+            objectTrackingView.disableView();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (!OpenCVLoader.initDebug()) {
+            Log.d(TAG, "Internal OpenCV library not found. Using OpenCV Manager for initialization");
+            OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_0_0, this, objectTrackingView);
+        } else {
+            Log.d(TAG, "OpenCV library found inside package. Using it!");
+            objectTrackingView.onManagerConnected(LoaderCallbackInterface.SUCCESS);
+        }
+    }
+
+    public void onDestroy() {
+        super.onDestroy();
+        if (objectTrackingView != null)
+            objectTrackingView.disableView();
     }
 }

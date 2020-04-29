@@ -1,3 +1,5 @@
 # ninja log v5
 0	945	609874781	CMakeFiles/mixed_sample.dir/jni_part.cpp.o	de2bd9f27f4a8c3e
 946	1028	609874781	E:/SDK_OpenCV/opencv-4.1.0-android-sdk/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/build/intermediates/cmake/debug/obj/armeabi-v7a/libmixed_sample.so	cdac0ed782ffd437
+2	738	609876562	CMakeFiles/mixed_sample.dir/jni_part.cpp.o	de2bd9f27f4a8c3e
+738	810	609876562	E:/SDK_OpenCV/opencv-4.1.0-android-sdk/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/build/intermediates/cmake/debug/obj/armeabi-v7a/libmixed_sample.so	cdac0ed782ffd437

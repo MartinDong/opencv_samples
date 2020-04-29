@@ -1,6 +1,7 @@
 package kong.qingwei.opencv320;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.CompoundButton;
@@ -11,9 +12,12 @@ import com.kongqw.ObjectDetectingView;
 import com.kongqw.ObjectDetector;
 import com.kongqw.listener.OnOpenCVLoadListener;
 
+import org.opencv.android.LoaderCallbackInterface;
+import org.opencv.android.OpenCVLoader;
 import org.opencv.core.Scalar;
 
 public class ObjectDetectingActivity extends BaseActivity implements CompoundButton.OnCheckedChangeListener {
+    private static final String  TAG                 = "ObjectDetectingActivity";
 
     private ObjectDetectingView objectDetectingView;
     private ObjectDetector mFaceDetector;
@@ -62,7 +66,7 @@ public class ObjectDetectingActivity extends BaseActivity implements CompoundBut
             }
         });
 
-        objectDetectingView.loadOpenCV(getApplicationContext());
+        //objectDetectingView.loadOpenCV(getApplicationContext());
     }
 
     /**
@@ -128,5 +132,32 @@ public class ObjectDetectingActivity extends BaseActivity implements CompoundBut
             default:
                 break;
         }
+    }
+
+    @Override
+    public void onPause()
+    {
+        super.onPause();
+        if (objectDetectingView != null)
+            objectDetectingView.disableView();
+    }
+
+    @Override
+    public void onResume()
+    {
+        super.onResume();
+        if (!OpenCVLoader.initDebug()) {
+            Log.d(TAG, "Internal OpenCV library not found. Using OpenCV Manager for initialization");
+            OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_0_0, this, objectDetectingView);
+        } else {
+            Log.d(TAG, "OpenCV library found inside package. Using it!");
+            objectDetectingView.onManagerConnected(LoaderCallbackInterface.SUCCESS);
+        }
+    }
+
+    public void onDestroy() {
+        super.onDestroy();
+        if (objectDetectingView != null)
+            objectDetectingView.disableView();
     }
 }

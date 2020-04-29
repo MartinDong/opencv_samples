@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Apr 29 22:45:23 CST 2020
+#Wed Apr 29 23:15:18 CST 2020
 4.path=lib/x86/libopencv_java4.so
 8.set=DEX
 6.path=classes.dex

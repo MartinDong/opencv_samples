@@ -3,3 +3,5 @@
 4041	4437	609874650	E:/SDK_OpenCV/opencv-4.1.0-android-sdk/OpenCV-android-sdk/samples/face-detection/build/intermediates/cmake/debug/obj/x86_64/libdetection_based_tracker.so	3c5b6a78cd6bbac6
 9	1042	609874726	CMakeFiles/detection_based_tracker.dir/DetectionBasedTracker_jni.cpp.o	c6ec80afd1070965
 1043	1542	609874727	E:/SDK_OpenCV/opencv-4.1.0-android-sdk/OpenCV-android-sdk/samples/face-detection/build/intermediates/cmake/debug/obj/x86_64/libdetection_based_tracker.so	3c5b6a78cd6bbac6
+1	911	609876520	CMakeFiles/detection_based_tracker.dir/DetectionBasedTracker_jni.cpp.o	c6ec80afd1070965
+911	1029	609876521	E:/SDK_OpenCV/opencv-4.1.0-android-sdk/OpenCV-android-sdk/samples/face-detection/build/intermediates/cmake/debug/obj/x86_64/libdetection_based_tracker.so	3c5b6a78cd6bbac6

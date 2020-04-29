@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "E:\\Sdk\\android-ndk-r21\\build\\cmake\\android.toolchain.cmake",
+    "E:\\Sdk\\android-ndk-r21\\build\\cmake\\platforms.cmake",
+    "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\jni\\..\\..\\..\\sdk\\native\\jni\\abi-x86\\OpenCVConfig.cmake",
+    "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\jni\\..\\..\\..\\sdk\\native\\jni\\OpenCVConfig.cmake",
+    "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\jni\\CMakeLists.txt",
+    "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\jni\\..\\..\\..\\sdk\\native\\jni\\OpenCVConfig-version.cmake",
+    "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\jni\\..\\..\\..\\sdk\\native\\jni\\abi-x86\\OpenCVModules.cmake",
+    "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\jni\\..\\..\\..\\sdk\\native\\jni\\abi-x86\\OpenCVModules-release.cmake"
+  ],
+  "cleanCommands": [
+    "E:\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
+  ],
+  "libraries": {
+    "mixed_sample-Release-x86": {
+      "artifactName": "mixed_sample",
+      "buildCommand": "E:\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\.externalNativeBuild\\cmake\\release\\x86 --target mixed_sample",
+      "abi": "x86",
+      "output": "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\build\\intermediates\\cmake\\release\\obj\\x86\\libmixed_sample.so"
+    }
+  }
+}

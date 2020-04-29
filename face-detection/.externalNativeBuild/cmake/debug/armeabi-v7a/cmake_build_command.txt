@@ -1,0 +1,22 @@
+Executable : E:\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HE:\SDK_OpenCV\opencv-4.1.0-android-sdk\OpenCV-android-sdk\samples\face-detection\jni
+-BE:\SDK_OpenCV\opencv-4.1.0-android-sdk\OpenCV-android-sdk\samples\face-detection\.externalNativeBuild\cmake\debug\armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\SDK_OpenCV\opencv-4.1.0-android-sdk\OpenCV-android-sdk\samples\face-detection\build\intermediates\cmake\debug\obj\armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=E:\sdk\android-ndk-r21
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DCMAKE_SYSTEM_VERSION=21
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=E:\sdk\android-ndk-r21
+-DCMAKE_TOOLCHAIN_FILE=E:\sdk\android-ndk-r21\build\cmake\android.toolchain.cmake
+-G Ninja
+-DCMAKE_MAKE_PROGRAM=E:\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DOpenCV_DIR=E:\SDK_OpenCV\opencv-4.1.0-android-sdk\OpenCV-android-sdk\sdk/native/jni
+-DANDROID_TOOLCHAIN=clang
+-DANDROID_STL=c++_static
+jvmArgs : 
+

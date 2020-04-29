@@ -1,0 +1,5 @@
+# ninja log v5
+0	983	609874651	CMakeFiles/detection_based_tracker.dir/DetectionBasedTracker_jni.cpp.o	da1542f37acd6e85
+987	1282	609874652	E:/SDK_OpenCV/opencv-4.1.0-android-sdk/OpenCV-android-sdk/samples/face-detection/build/intermediates/cmake/debug/obj/x86/libdetection_based_tracker.so	3da2188e717831a0
+2	888	609874727	CMakeFiles/detection_based_tracker.dir/DetectionBasedTracker_jni.cpp.o	da1542f37acd6e85
+888	1320	609874728	E:/SDK_OpenCV/opencv-4.1.0-android-sdk/OpenCV-android-sdk/samples/face-detection/build/intermediates/cmake/debug/obj/x86/libdetection_based_tracker.so	3da2188e717831a0

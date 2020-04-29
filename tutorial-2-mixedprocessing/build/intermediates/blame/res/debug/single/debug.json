@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\build\\intermediates\\res\\merged\\debug\\layout_tutorial2_surface_view.xml.flat",
+        "source": "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\res\\layout\\tutorial2_surface_view.xml"
+    }
+]

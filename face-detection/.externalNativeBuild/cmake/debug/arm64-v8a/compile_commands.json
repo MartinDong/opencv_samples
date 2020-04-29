@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/SDK_OpenCV/opencv-4.1.0-android-sdk/OpenCV-android-sdk/samples/face-detection/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "command": "E:\\Sdk\\android-ndk-r21\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Sdk/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Sdk/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ddetection_based_tracker_EXPORTS -IE:/SDK_OpenCV/opencv-4.1.0-android-sdk/OpenCV-android-sdk/samples/face-detection/jni -isystem E:/SDK_OpenCV/opencv-4.1.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11 -o CMakeFiles\\detection_based_tracker.dir\\DetectionBasedTracker_jni.cpp.o -c E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\face-detection\\jni\\DetectionBasedTracker_jni.cpp",
+  "file": "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\face-detection\\jni\\DetectionBasedTracker_jni.cpp"
+}
+]

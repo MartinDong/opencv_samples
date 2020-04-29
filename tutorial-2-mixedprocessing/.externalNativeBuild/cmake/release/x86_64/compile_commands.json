@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/SDK_OpenCV/opencv-4.1.0-android-sdk/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/.externalNativeBuild/cmake/release/x86_64",
+  "command": "E:\\Sdk\\android-ndk-r21\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=E:/Sdk/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/Sdk/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dmixed_sample_EXPORTS -IE:/SDK_OpenCV/opencv-4.1.0-android-sdk/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/jni -isystem E:/SDK_OpenCV/opencv-4.1.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -std=gnu++11 -o CMakeFiles\\mixed_sample.dir\\jni_part.cpp.o -c E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\jni\\jni_part.cpp",
+  "file": "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\tutorial-2-mixedprocessing\\jni\\jni_part.cpp"
+}
+]

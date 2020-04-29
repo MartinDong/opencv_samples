@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\image-manipulations\\build\\intermediates\\res\\merged\\debug\\layout_image_manipulations_surface_view.xml.flat",
+        "source": "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\image-manipulations\\res\\layout\\image_manipulations_surface_view.xml"
+    },
+    {
+        "merged": "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\image-manipulations\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "E:\\SDK_OpenCV\\opencv-4.1.0-android-sdk\\OpenCV-android-sdk\\samples\\image-manipulations\\res\\drawable\\icon.png"
+    }
+]
